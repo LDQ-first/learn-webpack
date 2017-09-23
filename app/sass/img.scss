@@ -1,0 +1,21 @@
+.main {
+    border: 2px solid #F0968B;
+    margin: 1em auto;
+    display: flex;
+    li {
+        flex: 1;
+        margin: 2em 2%;
+        border: 2px solid #F0968B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img {
+            width: 100%;
+        }
+        h3 {
+            text-align: center;
+            margin: 6px 0;
+        }
+    }
+
+}
